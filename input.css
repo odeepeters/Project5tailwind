@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (max-width: 450px){
+    body {
+        overflow-x: hidden;
+    }
+
+    #hero{
+        margin-top: 20px;
+    }
+
+     #victoria {
+         margin-bottom: 5px;
+    } 
+
+    .btn1{
+        margin-bottom: 5px;
+        
+    }
+    .btn2{
+        width: 72%;
+    }
+
+    .rounded a{
+        width: 90%;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 5px;
+       
+    }
+
+    .container input{
+        width: 80%;
+        margin-right: 5px;
+        padding: 0;
+    }
+
+    .container textarea{
+        width: 80%;
+        
+    }
+}
